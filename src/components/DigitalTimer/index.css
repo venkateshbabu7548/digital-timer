@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.con {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: linear-gradient(to right, #defafe, #cffcf1, #defafe);
+  margin: 50px;
+  height: 100%;
+  width: 80%;
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+
+  background-position: center;
+}
+.center {
+  background-color: white;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  border-radius: 100px;
+  font-weight: bold;
+}
+.down {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 1000px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+
+  height: 500px;
+  width: 350px;
+
+  text-align: center;
+}
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+
+  width: 300px;
+}
+.limit-control {
+  margin: 20px;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.count-limit {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  height: 40px;
+  font-size: 25px;
+  padding: 5px;
+  font-weight: bold;
+  width: 80px;
+  border-radius: 10px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.control-btn-con {
+  display: flex;
+
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.run-btn {
+  height: 30px;
+  width: 30px;
+
+  background-color: transparent;
+  border: 0px;
+}
+.total {
+  color: #00d9f5;
+}
+.control-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: roboto;
+}
